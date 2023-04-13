@@ -1,0 +1,232 @@
+ * {
+     font-family: cursive;
+     padding: 0%;
+     margin: 0%;
+ }
+
+
+
+ .bigbox {
+     background-color: blue;
+ }
+
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ .footer p{
+    border-top: 2px solid #EF629F;
+    border-radius: 50px;
+    padding: 10px;
+    width: 100%;
+ }
+
+ .header {
+     text-align: center;
+     font-size: 20px;
+     color: azure;
+     background: #000428;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #004e92, #000428);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #004e92, #000428);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+
+
+ }
+ .header h1{
+    border-bottom: 2px solid #EF629F;
+    border-radius: 50px;
+    padding: 10px;
+ }
+ .icons {
+    justify-content: space-around;
+    padding: 9px 0;
+    margin: 1% 0;
+    border-radius: 20px;
+    width: max-content;
+    height: max-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+.icons a img{
+}
+
+ .bigcon {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     background: #000428;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #004e92, #000428);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #004e92, #000428);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+     padding: 10px 0;
+     width: 100%;
+
+ }
+
+
+ .card a {
+     text-decoration: none;
+     font-size: 25px;
+     color: rgb(0, 0, 0);
+     font-weight: 300;
+     transition: .1s all ease-in-out;
+ }
+
+ .card a:hover {
+     color: #ffffff;
+ }
+
+ .cardcontent p {
+     color: rgb(255, 255, 255);
+ }
+
+ .card {
+     border-radius: 32% 41% 24% 21% / 65% 60% 33% 43%;
+     background: linear-gradient(to top, #3f5972, #37a6ef);
+     border: #db1ac2 2px solid;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 30%;
+     height: 90%;
+     padding-left: 10px;
+     padding-top: 10px;
+
+     overflow: hidden
+ }
+
+ .card1-2-3 {
+     /* margin: 0px auto; */
+     width: 90%;
+     height: 55%;
+     justify-content: space-evenly;
+     display: flex;
+     align-items: center;
+
+ }
+
+ .card4 {
+     /* margin: 0px auto; */
+     width: 70%;
+     height: 40%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+ .card4 .cardcontent p {
+    text-align: center;
+ }
+
+ .fath-img {
+     width: 40%;
+ }
+
+ .cardend {
+     width: 60%;
+     height: 100%;
+
+
+
+ }
+
+ .cardend .fath-img {
+     width: 125px;
+
+
+ }
+
+ .cardcontent {
+     margin-left: 30px;
+     margin-bottom: 10px;
+ }
+
+ img {
+     width: 100%;
+ }
+ .icons a {
+    width: 10%;
+ }
+
+
+
+ @media only screen and (max-width: 600px) {
+    
+     .card1-2-3 {
+         flex-direction: column;
+         height: max-content;
+         gap:20px 0;
+         margin: 0%;
+         
+
+     }
+     .card{
+        width: 55%;
+     }
+     .bigcon{
+     gap:20px 0;
+
+     }
+     .cardend{
+        width: max-content;
+     }
+ .carddiv1{
+    width:80%
+    
+ }
+ .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer {
+     text-align: center;
+     width: 100%;
+     font-size: 32px;
+     color: azure;
+     background: #000428;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #004e92, #000428);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #004e92, #000428);
+ }
